@@ -17,8 +17,8 @@ function countProps(obj) {
     return Object.keys(obj).length;
 }
 
-console.log(countProps({ name: 'Mango', age: 2 })); // 2
-console.log(countProps({ mail: 'poly@mail.com', isOnline: true, score: 500 })); // 3
+console.log(countProps({ name: 'Mango', age: 2 }));
+console.log(countProps({ mail: 'poly@mail.com', isOnline: true, score: 500 })); 
 
 
 function findBestEmployee(employees) {
@@ -58,8 +58,8 @@ function countTotalSalary(employees) {
 
     return totalSalary;
 }
-console.log(countTotalSalary({ mango: 100, poly: 150, alfred: 80 })); // 330
-console.log(countTotalSalary({})); // 0
+console.log(countTotalSalary({ mango: 100, poly: 150, alfred: 80 })); 
+console.log(countTotalSalary({})); 
 function getAllPropValues(arr, prop) {
     const values = [];
 
@@ -97,7 +97,6 @@ function calculateTotalPrice(allProducts, productName) {
     return totalPrice;
 }
 
-// Перевірка функції
 const productsList = [
     { name: 'Radar', price: 1300, quantity: 4 },
     { name: 'Scanner', price: 2700, quantity: 3 },
